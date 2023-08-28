@@ -1,0 +1,50 @@
+name: travel_canvas
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts:
+  flutter_riverpod:
+  riverpod_annotation:
+  flutter_hooks:
+  hooks_riverpod:
+  intl:
+  image_picker:
+  go_router:
+  google_maps_flutter:
+  geolocator:
+  geocoding:
+  sqflite:
+  image:
+  rive:
+  flutter_launcher_icons: ^0.13.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  riverpod_generator:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/rive/
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/bird_icon.png"
+  adaptive_icon_background: "#FFCDCD"
+  adaptive_icon_foreground: "assets/images/bird_icon.png"
